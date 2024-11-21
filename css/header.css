@@ -6,21 +6,23 @@ html.fixed {
 }
 
 header {
-  background-color: #3a3a3a;
+  --header-height: 44px;
+
+  position: relative;
+  z-index: 9;
+
+  background-color: var(--color-header);
 }
 
 header .inner {
-  position: relative;
-
   max-width: 1020px;
-  margin: auto;
 }
 
 header ul.menu {
   display: flex;
   justify-content: space-between;
 
-  height: 44px;
+  height: var(--header-height);
 }
 
 header ul.menu > li {
@@ -36,7 +38,7 @@ header ul.menu > li > button {
   padding: 0 10px;
   font-size: 11px;
 
-  color: #f5f5f5;
+  color: var(--color-font-lightgray);
   opacity: 0.8;
 }
 
@@ -71,9 +73,9 @@ header .basket {
 
   padding: 10px 20px;
 
-  border: 1px solid #d2d2d2;
+  border: 1px solid var(--color-border);
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: var(--color-white);
 
   opacity: 0;
   visibility: hidden;
@@ -107,8 +109,8 @@ header .basket .arrow::before {
   width: 12px;
   height: 12px;
 
-  border: 1px solid #d2d2d2;
-  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-white);
 
   transform: translate(-50%, 50%) rotate(45deg);
 }
@@ -116,7 +118,7 @@ header .basket .arrow::before {
 header .basket .message {
   padding: 30px 0;
 
-  color: #6e6e6e;
+  color: var(--color-font-darkgray);
   text-align: center;
   font-size: 13px;
 }
@@ -126,7 +128,7 @@ header .basket ul {
 }
 
 header .basket ul li {
-  border-top: 1px solid #d2d2d2;
+  border-top: 1px solid var(--color-border);
 }
 
 header .basket ul li a {
@@ -135,7 +137,7 @@ header .basket ul li a {
   padding: 14px;
 
   font-size: 13px;
-  color: #0071e3;
+  color: var(--color-link);
 }
 
 header .basket ul li a:hover {
@@ -170,7 +172,7 @@ header .search .shadow {
   width: 100%;
   height: 100%;
 
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: var(--color-shadow);
 }
 
 header .search .textfield {
@@ -179,7 +181,7 @@ header .search .textfield {
 
 header .search input {
   width: 100%;
-  height: 44px;
+  height: var(--header-height);
 
   padding: 0 40px;
 
@@ -189,7 +191,7 @@ header .search input {
   background-color: transparent;
 
   font-size: 17px;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 header .search .icons {
@@ -198,7 +200,7 @@ header .search .icons {
   align-items: center;
 
   width: 40px;
-  height: 44px;
+  height: var(--header-height);
 
   opacity: 0.4;
 }
@@ -223,21 +225,21 @@ header .search .search-closer:hover {
 
 header .search .auto-completes {
   position: absolute;
-  top: 44px;
+  top: var(--header-height);
   left: 0;
 
   width: 100%;
   padding: 26px 40px 20px;
 
   border-radius: 0 0 18px 18px;
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 header .search .auto-completes h2 {
   margin-bottom: 12px;
 
   font-size: 12px;
-  color: #6e6e6e;
+  color: var(--color-font-darkgray);
 }
 
 header .search .auto-completes ul li a {
@@ -251,9 +253,9 @@ header .search .auto-completes ul li a {
 }
 
 header .search .auto-completes ul li:hover a {
-  background-color: #f5f5f5;
+  background-color: var(--color-font-lightgray);
 
-  color: #0071e3;
+  color: var(--color-link);
 }
 
 header .search input,

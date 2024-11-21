@@ -1,0 +1,64 @@
+.hero {
+  background-color: var(--color-section);
+}
+
+.hero .inner {
+  padding-bottom: 110px;
+}
+
+.hero h2 {
+  position: absolute;
+  transform: translate(624px, 235px);
+  z-index: 1;
+
+  width: 221px;
+  height: 91px;
+}
+
+.hero .figures {
+  height: 808px;
+}
+
+.hero figure {
+  transform: translate(74px, -64px);
+}
+
+.hero figure figcaption .caption-camera {
+  transform: translate(43px, 580px);
+}
+
+.hero figure figcaption .caption-chip {
+  transform: translate(589px, 510px);
+}
+
+.hero figure figcaption .caption-storage {
+  transform: translate(627px, 631px);
+}
+
+.hero h3 {
+  width: 738px;
+  height: 145px;
+
+  margin: 0 auto;
+}
+
+.hero p.pricing {
+  margin-top: 40px;
+
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hero p.description {
+  width: 88%;
+
+  margin: 18px auto 0;
+
+  font-size: 19px;
+  text-align: center;
+}
+
+.hero .links {
+  margin-top: 30px;
+}
