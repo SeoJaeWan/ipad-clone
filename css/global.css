@@ -368,6 +368,10 @@ a.link::after {
   transform: translateY(0);
 }
 
+.infos--large .info {
+  max-width: 410px;
+}
+
 .info .icon {
   width: 100px;
   height: 100px;

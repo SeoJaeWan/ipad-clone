@@ -1,0 +1,40 @@
+.accessories {
+  margin-top: 195px;
+}
+
+.accessories h2 {
+  width: 550px;
+  height: 343px;
+
+  margin: 0 auto;
+}
+
+.accessories .figures {
+  height: 1021px;
+
+  margin-top: 34px;
+}
+
+.accessories figure {
+  transform: translate(-24px, 0);
+}
+
+.accessories figcaption .caption-memo {
+  width: 169px;
+  height: 41px;
+
+  transform: translate(790px, -52px);
+}
+
+.accessories figcaption .caption-supports {
+  width: 200px;
+  height: 70px;
+
+  transform: translate(163px, 821px);
+}
+
+.accessories .infos {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
