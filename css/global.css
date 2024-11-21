@@ -38,3 +38,28 @@ input::-webkit-search-results-decoration {
 button {
   cursor: pointer;
 }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 24px;
+
+  padding: 0 10px;
+  border-radius: 100px;
+
+  font-size: 11px;
+  line-height: 1;
+
+  color: #ffffff;
+  background-color: #0071e3;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 4px #81b9f1;
+}
