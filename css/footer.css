@@ -53,3 +53,46 @@ footer .warning li {
   line-height: 1.5;
   color: var(--color-font-darkgray);
 }
+
+footer .breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  margin: 20px 0;
+}
+
+footer .breadcrumbs a {
+  position: relative;
+
+  font-size: 12px;
+  color: var(--color-font-darkgray);
+}
+
+footer .breadcrumbs a.apple-logo {
+  width: 16px;
+  height: 16px;
+}
+
+footer .breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+footer .breadcrumbs a::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -18px;
+  margin: auto;
+
+  width: 8px;
+  height: 18px;
+
+  background-image: url("../images/path_div.svg");
+}
+
+footer .breadcrumbs a:last-child:after {
+  display: none;
+}
