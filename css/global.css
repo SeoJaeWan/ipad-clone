@@ -483,3 +483,10 @@ a.link::after {
 
   margin-top: 26px;
 }
+
+sup {
+  margin-right: 6px;
+
+  font-size: 0.7em;
+  vertical-align: top;
+}
