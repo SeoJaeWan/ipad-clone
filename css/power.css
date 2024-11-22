@@ -1,0 +1,59 @@
+.power {
+  margin-top: 110px;
+}
+
+.power .multiple-apps h2 {
+  width: 500px;
+  height: 280px;
+
+  transform: translate(104px, 0);
+}
+
+.power .multiple-apps .figures {
+  height: 773px;
+}
+
+.power .multiple-apps figcaption {
+  width: 138px;
+  height: 46px;
+
+  transform: translate(703px, -47px);
+}
+
+.power .arcade {
+  margin-top: 55px;
+}
+
+.power .arcade .figures {
+  height: 600px;
+}
+
+.power .arcade figure {
+  transform: translate(-347px, -90px);
+}
+
+.power .arcade figcaption {
+  width: 150px;
+  height: 77px;
+
+  transform: translate(483px, 653px);
+}
+
+.power .create {
+  margin-top: 55px;
+}
+
+.power .create .figures {
+  height: 772px;
+}
+
+.power .create figure {
+  transform: translate(-25px, 50px);
+}
+
+.power .create figcaption {
+  width: 142px;
+  height: 46px;
+
+  transform: translate(543px, 908px);
+}

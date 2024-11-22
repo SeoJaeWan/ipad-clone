@@ -1,0 +1,62 @@
+.ipadOs {
+  margin-top: 212px;
+  padding-bottom: 280px;
+}
+
+.ipadOs h2 {
+  width: 530px;
+  height: 400px;
+
+  margin: 0 auto;
+}
+
+.ipadOs .infos {
+  align-items: flex-end;
+
+  margin-top: 44px;
+}
+
+.ipadOs .figures {
+  display: flex;
+
+  height: 782px;
+}
+
+.ipadOs .figures > div {
+  position: relative;
+
+  flex-grow: 1;
+}
+
+.ipadOs .figure-split-view figure {
+  transform: translate(-205px, -312px);
+}
+
+.ipadOs .figure-split-view figcaption {
+  width: 163px;
+  height: 53px;
+
+  transform: translate(200px -38px);
+}
+
+.ipadOs .figure-widget figure {
+  transform: translate(237px, 43px);
+}
+
+.ipadOs .figure-widget figcaption {
+  width: 161px;
+  height: 46px;
+
+  transform: translate(257px 497px);
+}
+
+.ipadOs .figure-quick-note figure {
+  transform: translate(-625px, 232px);
+}
+
+.ipadOs .figure-quick-note figcaption {
+  width: 82px;
+  height: 97px;
+
+  transform: translate(511px 470px);
+}

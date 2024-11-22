@@ -1,0 +1,36 @@
+.wireless {
+  margin-top: 202px;
+}
+
+.wireless .facetime h2 {
+  width: 730px;
+  height: 330px;
+
+  transform: translate(104px, 0);
+}
+
+.wireless .facetime .figures {
+  height: 773px;
+}
+
+.wireless .facetime figure {
+  transform: translate(-68px, 0);
+}
+
+.wireless .facetime figcaption {
+  width: 139px;
+  height: 46px;
+
+  transform: translate(843px, -49px);
+}
+
+.wireless .files figure {
+  transform: translate(34px, -34px);
+}
+
+.wireless .files figcaption {
+  width: 127px;
+  height: 46px;
+
+  transform: translate(96px, 639px);
+}
